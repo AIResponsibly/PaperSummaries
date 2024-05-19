@@ -1,7 +1,7 @@
 # A Nutritional Label for Rankings
-- Published SIGMOD’18
-- link: https://arxiv.org/abs/1804.07890
-- Summary:  Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
+- **Published**: SIGMOD’18
+- **Link**: https://arxiv.org/abs/1804.07890
+- **Summary**:  Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
 ### Problem 
 - Algorithmic ranking systems can discriminate against individuals and protected groups, lack diversity, and produce unstable rankings that are easily manipulated.
