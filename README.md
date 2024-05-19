@@ -25,7 +25,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Explainability and Interpretability</summary>
   
 <p>
-  
+
+  - [LIME: Local Interpretable Model-Agnostic Explanations - KDD 2016](./Explainability/LIME.md). Proposes LIME, a technique to explain the predictions of any classifier by approximating it locally with an interpretable model.
+
+  - [SHAP: SHapley Additive exPlanations - NeurIPS 2017](./Explainability/SHAP.md). Introduces SHAP values, a unified measure of feature importance based on game theory.
+
   - [A Nutritional Label for Rankings - SIGMOD 2018](./summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
 </p>
