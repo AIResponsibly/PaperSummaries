@@ -1,15 +1,7 @@
 # A Nutritional Label for Rankings
 - Published SIGMOD’18
 - link: https://arxiv.org/abs/1804.07890
-
-
-<!-- 
-
-### Abstract
-> Algorithmic decisions often result in scoring and ranking individuals to determine credit worthiness, qualifications for college admissions and employment, and compatibility as dating partners. While automatic and seemingly objective, ranking algorithms can discriminate against individuals and protected groups, and exhibit low diversity. Furthermore, ranked results are often unstable — small changes in the input data or in the ranking methodology may lead to drastic changes in the output, making the result uninformative and easy to manipulate. Similar concerns apply in cases where items other than individuals are ranked, including colleges, academic departments, or products.
->
-> In this demonstration we present Ranking Facts, a Web-based application that generates a “nutritional label” for rankings. Ranking Facts is made up of a collection of visual widgets that implement our latest research results on fairness, stability, and transparency for rankings, and that communicate details of the ranking methodology, or of the output, to the end user. We will showcase Ranking Facts on real datasets from different domains, including college rankings, criminal risk assessment, and financial services.
--->
+- Summary:  Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
 ### Problem 
 - Algorithmic ranking systems can discriminate against individuals and protected groups, lack diversity, and produce unstable rankings that are easily manipulated.
