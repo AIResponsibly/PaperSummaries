@@ -17,7 +17,6 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 ## Quick Links
 
 - [Contribution Guidelines](CONTRIBUTING.md)
-- [License](LICENSE)
 
 ## Summaries by Topic
 
@@ -39,76 +38,58 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 <details>
   <summary>Fairness and Biases</summary>
   
-  ### Fairness and Biases
 
 
   1. **[Fairness Through Awareness](summaries/fairness_bias/FairnessThroughAwareness.md)** - NIPS 2011
      - **Summary**: Discusses techniques to ensure fairness in machine learning models by making them aware of potential biases.
 
-  <!-- Add more summaries here -->
 
 </details>
 
 <details>
   <summary>Privacy</summary>
   
-  ### Privacy
-
 
   1. **[Differential Privacy: A Primer](summaries/privacy/DifferentialPrivacy.md)** - Journal of Privacy 2019
      - **Summary**: Introduces differential privacy and its applications in ensuring data privacy.
 
-  <!-- Add more summaries here -->
 
 </details>
 
 <details>
   <summary>Security</summary>
-  
-  ### Security
-
-
-  <!-- Add summaries here -->
+  <p>
+    
+  </p>
 
 </details>
 
 <details>
   <summary>Safety</summary>
   
-  ### Safety
-
-
-  <!-- Add summaries here -->
+  <p>
+    
+  </p>
 
 </details>
 
 <details>
   <summary>Accountability</summary>
-  
-  ### Accountability
 
-
-  <!-- Add summaries here -->
+  <p>
+    
+  </p>
 
 </details>
 
 <details>
   <summary>Human Control and Interaction</summary>
   
-  ### Human Control and Interaction
-
-
-  <!-- Add summaries here -->
-
 </details>
 
 <details>
   <summary>Legal and Ethical Guidelines</summary>
   
-  ### Legal and Ethical Guidelines
-
-
-  <!-- Add summaries here -->
 
 </details>
 
@@ -128,6 +109,8 @@ Each summary is stored in the relevant subfolder within the `summaries/` directo
 
 We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for more details on how to contribute.
 
+<!--
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+-->
