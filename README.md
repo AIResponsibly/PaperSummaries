@@ -24,14 +24,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 <details>
   <summary>Explainability and Interpretability</summary>
   
-  ### Explainability and Interpretability
+<p>
+  
+  - [A Nutritional Label for Rankings - SIGMOD 2018](./summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
-
-  1. **[SHAP: Explainable AI](summaries/explainability/SHAP.md)** - ICML 2020
-     - **Summary**: Introduces SHAP values for explainable AI, providing a unified measure of feature importance.
-
-  2. **[LIME: Local Interpretable Model-Agnostic Explanations](summaries/explainability/LIME.md)** - KDD 2016
-     - **Summary**: Proposes LIME, a technique to explain the predictions of any classifier by approximating it locally with an interpretable model.
+</p>
 
 </details>
 
