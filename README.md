@@ -17,11 +17,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Legal and Ethical Guidelines**
 
 ## Recent Summaries
- - **[A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md)**. Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
+ - **[ - ](summaries/privacy/index.md)**. 
 
- - **[ - ](summaries/explainability/index.md)**. 
+ - **[ - ](summaries/security/index.md)**. 
 
- - **[ - ](summaries/fairness_bias/index.md)**. 
+ - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
 
 ## Summaries by Topic
@@ -40,6 +40,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 <details open>
   <summary>Fairness and Biases</summary>
   <p>
+
+  - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/fairness_bias/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
   - [ - ](summaries/fairness_bias/index.md). 
 
