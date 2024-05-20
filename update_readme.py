@@ -57,8 +57,14 @@ This repository provides brief summaries of AI/ML papers in the following areas:
     for topic, folder in topics.items():
         md_files = glob.glob(os.path.join(summaries_dir, folder, '*.md'))
         for md_file in md_files:
-            title, published, link, summary = extract_info_from_md(md_file)
-            all_summaries.append((md_file, title, published, summary))
+            try:
+                title, published, link, summary = extract_info_from_md(md_file)
+                if title and published and link and summary:
+                    all_summaries.append((md_file, title, published, summary))
+                else:
+                    print(f"Warning: Missing information in file {md_file}")
+            except Exception as e:
+                print(f"Error processing file {md_file}: {e}")
 
     # Sort summaries by modification time and get the latest three
     all_summaries.sort(key=lambda x: os.path.getmtime(x[0]), reverse=True)
@@ -73,8 +79,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
         readme_content += f"\n<details open>\n  <summary>{topic}</summary>\n  <p>\n\n"
         md_files = glob.glob(os.path.join(summaries_dir, folder, '*.md'))
         for md_file in md_files:
-            title, published, link, summary = extract_info_from_md(md_file)
-            readme_content += f"  - [{title} - {published}]({md_file}). {summary}\n\n"
+            try:
+                title, published, link, summary = extract_info_from_md(md_file)
+                readme_content += f"  - [{title} - {published}]({md_file}). {summary}\n\n"
+            except Exception as e:
+                print(f"Error processing file {md_file}: {e}")
         readme_content += "  </p>\n</details>\n"
 
     readme_content += """
