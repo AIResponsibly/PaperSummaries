@@ -17,9 +17,9 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Legal and Ethical Guidelines**
 
 ## Recent Summaries
- - **[A Nutritional Label for Rankings - SIGMOD’18](summaries/human_control_interaction/Nutritional_Label.md)**. Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
-
  - **[Why Should I Trust You? Explaining the Predictions of Any Classifier - KDD 2016](summaries/explainability/LIME.md)**. This paper introduces LIME (Local Interpretable Model-agnostic Explanations), a technique to explain the predictions of any classifier in a faithful and interpretable manner by learning an interpretable model locally around the prediction.
+
+ - **[A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md)**. Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
  - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/fairness_bias/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
@@ -79,8 +79,6 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 <details open>
   <summary>Human Control and Interaction</summary>
   <p>
-
-  - [A Nutritional Label for Rankings - SIGMOD’18](summaries/human_control_interaction/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
   </p>
 </details>
