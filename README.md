@@ -1,8 +1,10 @@
 # Responsible AI Paper Summaries
 
-Welcome to the Responsible AI Paper Summaries repository! Here, you'll find concise summaries of key papers in various areas of responsible AI.
+Stay updated with the latest in Responsible AI. Subscribe to the [Responsible AI newsletter](https://airesponsibly.substack.com/) for weekly updates on new papers and more.
 
 ## Overview
+
+Welcome to the Responsible AI Paper Summaries repository! Here, you'll find concise summaries of key papers in various areas of responsible AI.
 
 This repository provides brief summaries of AI/ML papers in the following areas:
 - **Explainability and Interpretability**
@@ -14,92 +16,91 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Human Control and Interaction**
 - **Legal and Ethical Guidelines**
 
-## Quick Links
+## Recent Summaries
+ - **[A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md)**. Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
-- [Contribution Guidelines](CONTRIBUTING.md)
+ - **[ - ](summaries/explainability/index.md)**. 
+
+ - **[ - ](summaries/fairness_bias/index.md)**. 
+
 
 ## Summaries by Topic
 
-<details>
+<details open>
   <summary>Explainability and Interpretability</summary>
-  
-<p>
+  <p>
 
-  - [LIME: Local Interpretable Model-Agnostic Explanations - KDD 2016](./Explainability/LIME.md). Proposes LIME, a technique to explain the predictions of any classifier by approximating it locally with an interpretable model.
+  - [A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
-  - [SHAP: SHapley Additive exPlanations - NeurIPS 2017](./Explainability/SHAP.md). Introduces SHAP values, a unified measure of feature importance based on game theory.
+  - [ - ](summaries/explainability/index.md). 
 
-  - [A Nutritional Label for Rankings - SIGMOD 2018](./summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
-
-</p>
-
+  </p>
 </details>
 
-<details>
+<details open>
   <summary>Fairness and Biases</summary>
-  
+  <p>
 
+  - [ - ](summaries/fairness_bias/index.md). 
 
-  1. **[Fairness Through Awareness](summaries/fairness_bias/FairnessThroughAwareness.md)** - NIPS 2011
-     - **Summary**: Discusses techniques to ensure fairness in machine learning models by making them aware of potential biases.
-
-
+  </p>
 </details>
 
-<details>
+<details open>
   <summary>Privacy</summary>
-  
+  <p>
 
-  1. **[Differential Privacy: A Primer](summaries/privacy/DifferentialPrivacy.md)** - Journal of Privacy 2019
-     - **Summary**: Introduces differential privacy and its applications in ensuring data privacy.
+  - [ - ](summaries/privacy/index.md). 
 
-
+  </p>
 </details>
 
-<details>
+<details open>
   <summary>Security</summary>
   <p>
-    
-  </p>
 
+  - [ - ](summaries/security/index.md). 
+
+  </p>
 </details>
 
-<details>
+<details open>
   <summary>Safety</summary>
-  
   <p>
-    
-  </p>
 
+  - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
+
+  - [ - ](summaries/safety/index.md). 
+
+  </p>
 </details>
 
-<details>
+<details open>
   <summary>Accountability</summary>
-
   <p>
-    
+
+  - [ - ](summaries/accountability/index.md). 
+
   </p>
-
 </details>
 
-<details>
+<details open>
   <summary>Human Control and Interaction</summary>
-  
+  <p>
+
+  - [ - ](summaries/human_control_interaction/index.md). 
+
+  </p>
 </details>
 
-<details>
+<details open>
   <summary>Legal and Ethical Guidelines</summary>
-  
+  <p>
 
+  - [ - ](summaries/legal_governance/index.md). 
+
+  </p>
 </details>
-
-## Recent Summaries
-
-Here are a few recent summaries:
-
-1. **[SHAP: Explainable AI](summaries/explainability/SHAP.md)** - ICML 2020
-2. **[Fairness Through Awareness](summaries/fairness_bias/FairnessThroughAwareness.md)** - NIPS 2011
-3. **[Differential Privacy: A Primer](summaries/privacy/DifferentialPrivacy.md)** - Journal of Privacy 2019
 
 ## How to Use
 
@@ -108,9 +109,3 @@ Each summary is stored in the relevant subfolder within the `summaries/` directo
 ## Contributing
 
 We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for more details on how to contribute.
-
-<!--
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
--->
