@@ -43,3 +43,42 @@
 
 ### Reference
 - Laura Weidinger, Jonathan Uesato, Maribeth Rauh, Conor Griffin, Po-Sen Huang, John Mellor, Amelia Glaese, Myra Cheng, Borja Balle, Atoosa Kasirzadeh, Courtney Biles, Sasha Brown, Zac Kenton, Will Hawkins, Tom Stepleton, Abeba Birhane, Lisa Anne Hendricks, Laura Rimell, William Isaac, Julia Haas, Sean Legassick, Geoffrey Irving, and Iason Gabriel. 2022. Taxonomy of Risks posed by Language Models. In Proceedings of 2022 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’22). ACM, New York, NY, USA, 16 pages. https://doi.org/10.1145/3531146.3533088
+
+
+# List of all categories
+
+## 2.1 Discrimination, Hate Speech and Exclusion
+- 2.1.1 Social stereotypes and unfair discrimination
+- 2.1.2 Hate speech and offensive language
+- 2.1.3 Exclusionary norms
+- 2.1.4 Lower performance for some languages and social groups
+
+## 2.2 Information Hazards
+- 2.2.1 Compromising privacy by leaking sensitive information
+- 2.2.2 Anticipated risks
+  - Compromising privacy or security by correctly inferring sensitive information
+
+## 2.3 Misinformation Harms
+- 2.3.1 Disseminating false or misleading information
+- 2.3.2 Causing material harm by disseminating false or poor information (e.g., in medicine or law)
+
+## 2.4 Malicious Uses
+- 2.4.1 Making disinformation cheaper and more effective
+- 2.4.2 Anticipated risks
+  - Assisting code generation for cybersecurity threats
+  - Facilitating fraud, scams and targeted manipulation
+  - Illegitimate surveillance and censorship
+
+## 2.5 Human-Computer Interaction Harms
+- 2.5.1 Promoting harmful stereotypes by implying gender or ethnic identity
+- 2.5.2 Anticipated risks
+  - Anthropomorphizing systems can lead to overreliance or unsafe use
+  - Avenues for exploiting user trust and accessing more private information
+  - Human-like interaction may amplify opportunities for user nudging, deception or manipulation
+
+## 2.6 Environmental and Socioeconomic Harms
+- 2.6.1 Environmental harms from operating LMs
+- 2.6.2 Anticipated risks
+  - Increasing inequality and negative effects on job quality
+  - Undermining creative economies
+  - Disparate access to benefits due to hardware, software, skill constraints
