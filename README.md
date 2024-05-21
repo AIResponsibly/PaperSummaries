@@ -82,7 +82,7 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Human Control and Interaction</summary>
   <p>
 
-  - [Certification Labels for Trustworthy AI: Insights From an Empirical Mixed-Method Study - FAccT '23](summaries/human_control_interaction/Survey_100Papers.md). This survey reviews over 100 empirical studies to understand and improve human-AI decision making, emphasizing the need for unified research frameworks.
+  - [Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies - FAccT '23](summaries/human_control_interaction/Survey_100Papers.md). This survey reviews over 100 empirical studies to understand and improve human-AI decision-making, emphasizing the need for unified research frameworks.
 
   </p>
 </details>
