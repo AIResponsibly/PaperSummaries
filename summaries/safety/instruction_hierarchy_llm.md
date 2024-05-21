@@ -1,7 +1,7 @@
 # The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
 - **Published**: arXiv, 2024
 - **Link**: [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/abs/2404.13208)
-- **Summary**: This paper introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
+- **Summary**: This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
 
 ### Problem
 - Modern LLMs are vulnerable to prompt injections, jailbreaks, and other attacks that exploit the lack of instruction prioritization.
