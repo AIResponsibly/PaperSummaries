@@ -1,24 +1,24 @@
-# Certification Labels for Trustworthy AI: Insights From an Empirical Mixed-Method Study
+# Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies
 - **Published**: FAccT '23
 - **Link**: https://arxiv.org/abs/2112.11471
-- **Summary**: This survey reviews over 100 empirical studies to understand and improve human-AI decision making, emphasizing the need for unified research frameworks.
+- **Summary**: This survey reviews over 100 empirical studies to understand and improve human-AI decision-making, emphasizing the need for unified research frameworks.
 - Presentation: https://www.youtube.com/watch?v=Lk8n6Aqp75I
-- list of papers they sutdied: https://haidecisionmaking.github.io/
+- list of papers they studied: https://haidecisionmaking.github.io/
   
   
 
 ### Problem 
 - **Integration of AI in High-Stakes Domains**: Challenges in sensitive sectors like healthcare.
-- **Lack of Coherent Practices**: Absence of uniform practices hinders scientific progress.
+- **Lack of Coherent Practices**: The absence of uniform practices hinders scientific progress.
 - **Diverse Methodologies and Disciplines**: Varied approaches complicate generalization of findings.
 - **Need for Common Frameworks**: Essential for understanding AI's impact on decisions.
 - **Early Development of Methodologies**: Evaluation metrics and methodologies still developing.
 
 
 ### Contributions
-- **Survey of Over 100 Papers**: Analysis of study design choices across different domains to evaluate AI's role in human decision making.
-- **Identification of Gaps**: Highlights the disparate methodologies and the need for standardized frameworks in human-AI decision making research.
-- **Recommendations for Future Research**: Proposes directions for developing common frameworks and methodologies to advance the empirical science of human-AI decision making.
+- **Survey of Over 100 Papers**: Analysis of study design choices across different domains to evaluate AI's role in human decision-making.
+- **Identification of Gaps**: Highlights the disparate methodologies and the need for standardized frameworks in human-AI decision-making research.
+- **Recommendations for Future Research**: Proposes directions for developing common frameworks and methodologies to advance the empirical science of human-AI decision-making.
 
 ### Method
 - **Focus on empirical human-subject studies**: Evaluates human performance and AI interaction.
@@ -50,29 +50,29 @@
 
 
 
-- Current trends in how surveyed studies evaluate human-AI decision making:
+- Current trends in how surveyed studies evaluate human-AI decision-making:
   1. Diverse evaluation focuses. 
   2. A focus on efficacy when evaluating decision tasks, but efficiency and subjective satisfaction are also useful indicators.
-  3. Focuses on understanding, trust, system satisfaction and fairness with regard to AI
+  3. Focuses on understanding, trust, system satisfaction, and fairness with regard to AI
   4. A lack of common measurements.
 
 - gaps in the field
   - A focus on decision efficacy (i.e., performance), and less emphasis on efficiency and user satisfaction.
-  - Use of subjective versus objective measurements need to be better understood and regulated.
+  The use of subjective versus objective measurements needs to be better understood and regulated.
   - Home-grown measurements, especially subjective survey items, are often used.
-  - Variance on the coverage of measurements.
+  - Variance in the coverage of measurements.
 
 - A few core recommendations for future work emerged:
   - Building on each other’s work.
-  - Developing common frameworks for human-AI decision making.
-  - Bridging AI and HCI communities to mutually shape human-AI decision making.
+  - Developing common frameworks for human-AI decision-making.
+  - Bridging AI and HCI communities to mutually shape human-AI decision-making.
 
 ### Limitations and Assumptions of this paper
 - The survey may not cover all existing empirical studies due to the selection criteria 
 - Findings are limited to the studies reviewed, i.e. the 100 papers. 
 
 ### Conclusion
-- The survey serves as a foundational step towards establishing a science of human-AI decision making 
+- The survey serves as a foundational step towards establishing a science of human-AI decision-making 
 - calling for rigorous scientific frameworks to understand and improve how humans interact with AI systems in decision-making processes.
 
 ### Reference
