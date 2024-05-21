@@ -1,7 +1,7 @@
 # Air Gap: Protecting Privacy-Conscious Conversational Agents
 - **Published**: arXiv 2024
 - **Link**: [Air Gap: Protecting Privacy-Conscious Conversational Agents](https://arxiv.org/abs/2405.05175)
-- **Summary**: Proposes AirGapAgent to prevent data leakage from LLMs, ensuring privacy in adversarial contexts.
+- **Summary**: A paper from Google proposes AirGapAgent to prevent data leakage from LLMs, ensuring privacy in adversarial contexts.
 
 ### Problem 
 - Privacy concerns with LLM-based conversational agents managing sensitive data.
