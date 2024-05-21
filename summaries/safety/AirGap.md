@@ -11,10 +11,14 @@
     - "by restricting the agent’s access to only the data necessary for a specific task"
 - Demonstrates effectiveness against context hijacking attacks.
 
-### Method
-- Utilizes two LLMs: a data minimizer and a conversational model.
-- Minimized data access based on user-defined context.
-
+## Methods
+- Proposed context hijacking attack targeting LLM-based agents.
+- Developed AirGapAgent to mitigate context hijacking.
+- Utilized two LLMs: 
+  - **Data minimizer** to decide appropriate data to share.
+  - Conversational model for interactions with minimized data.
+- Context is user-defined to prevent adversarial influence.
+  
 ### Result
 - AirGapAgent achieves up to 97% privacy protection.
 - Maintains core functionality of agents.
