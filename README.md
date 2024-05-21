@@ -17,11 +17,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Legal and Ethical Guidelines**
 
 ## Recent Summaries
- - **[The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md)**. This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
+ - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
- - **[Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies - FAccT '23](summaries/human_control_interaction/Survey_100Papers.md)**. This survey reviews over 100 empirical studies to understand and improve human-AI decision-making, emphasizing the need for unified research frameworks.
+ - **[Why Should I Trust You? Explaining the Predictions of Any Classifier - KDD 2016](summaries/explainability/LIME.md)**. This paper introduces LIME (Local Interpretable Model-agnostic Explanations), a technique to explain the predictions of any classifier in a faithful and interpretable manner by learning an interpretable model locally around the prediction.
 
- - **[A Unified Approach to Interpreting Model Predictions - NIPS 2017](summaries/explainability/SHAP.md)**. Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions by assigning each feature an importance value for a particular prediction, integrating six existing methods into a single, cohesive approach.
+ - **[A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md)**. Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
 
 ## Summaries by Topic
@@ -30,11 +30,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Explainability and Interpretability</summary>
   <p>
 
-  - [A Unified Approach to Interpreting Model Predictions - NIPS 2017](summaries/explainability/SHAP.md). Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions by assigning each feature an importance value for a particular prediction, integrating six existing methods into a single, cohesive approach.
-
   - [Why Should I Trust You? Explaining the Predictions of Any Classifier - KDD 2016](summaries/explainability/LIME.md). This paper introduces LIME (Local Interpretable Model-agnostic Explanations), a technique to explain the predictions of any classifier in a faithful and interpretable manner by learning an interpretable model locally around the prediction.
 
   - [A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
+
+  - [A Unified Approach to Interpreting Model Predictions - NIPS 2017](summaries/explainability/SHAP.md). Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions by assigning each feature an importance value for a particular prediction, integrating six existing methods into a single, cohesive approach.
 
   </p>
 </details>
@@ -69,6 +69,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   - [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md). This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
 
   - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
+
+  - [Air Gap: Protecting Privacy-Conscious Conversational Agents - arXiv 2024](summaries/safety/AirGap.md). Proposes AirGapAgent to prevent data leakage from LLMs, ensuring privacy in adversarial contexts.
 
   </p>
 </details>
