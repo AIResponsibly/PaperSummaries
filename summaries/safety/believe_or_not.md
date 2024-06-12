@@ -34,3 +34,6 @@
 
 ### Reference
 - Yasin Abbasi Yadkori, Ilja Kuzborskij, András György, Csaba Szepesvári. "To Believe or Not to Believe Your LLM," arXiv preprint arXiv:2406.02543, 2024.
+
+
+![Mind Map](images/believe_or_not.png)
