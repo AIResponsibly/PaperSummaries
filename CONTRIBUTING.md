@@ -25,18 +25,27 @@ Please use the following template for each paper summary:
 
 ### Problem 
 - Brief description of the problem being addressed.
+- list problems in bullet points. Use short sentences.
 
 ### Contributions
 - Key contributions made by the paper.
+- List each contribution in different bullet points.
 
 ### Method
 - Overview of the method used by the paper.
+- Dataset they used? author's approch?
 
 ### Result
 - Key results and findings from the study.
+- Less than 10 words each bullet point.
 
 ### Limitations and Assumptions
-- Any limitations or assumptions noted in the paper.
+- Any limitations or assumptions, of focus of this paper clearly stated by authors
+- If there is no limitations/assumption/focus mentioned ignore this section.
+
+### Future Work
+- List future works mentioned by authors in this paper
+- if there is no future work, skip this section
 
 ### Conclusion
 - Summary of the conclusions from the paper.
