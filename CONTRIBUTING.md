@@ -26,6 +26,7 @@ Please use the following template for each paper summary:
 ### Problem 
 - Brief description of the problem being addressed.
 - list problems in bullet points. Use short sentences.
+  - use indent if relevent e.g. defining a concept.
 
 ### Contributions
 - Key contributions made by the paper.
