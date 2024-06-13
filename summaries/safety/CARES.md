@@ -21,9 +21,9 @@
 - Evaluation based on trustfulness, fairness, safety, privacy, and robustness.
 
 ### Result
-- Factual inaccuracies.
+- Models show factual inaccuracies.
 - Poor uncertainty estimation.
-- Performance disparities across demographics.
+- Models fail to maintain fairness across different demographic groups.
 - Vulnerability to attacks.
 - Privacy leaks.
 - Inadequate handling of OOD samples.
