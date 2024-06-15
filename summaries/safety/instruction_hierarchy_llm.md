@@ -27,3 +27,6 @@
 
 ### Reference
 - Wallace, E., Xiao, K., Leike, R., Weng, L., Heidecke, J., & Beutel, A. (2024). The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. arXiv preprint arXiv:2404.13208.
+
+
+![Mind Map](images/instruction_hierarchy_llm.png)
