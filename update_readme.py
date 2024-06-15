@@ -21,7 +21,7 @@ def extract_info_from_md(md_file):
 def generate_readme():
     readme_content = """# Responsible AI Paper Summaries
 
-Stay updated with the latest in Responsible AI. Subscribe to the [Responsible AI newsletter](https://airesponsibly.substack.com/) for weekly updates on new papers and more.
+Subscribe to the [Responsible AI newsletter](https://airesponsibly.substack.com/) for weekly updates on new papers and more.
 
 ## Overview
 
