@@ -39,3 +39,6 @@
 
 ### Reference
 - Bagdasaryan, E., Yi, R., Ghalebikesabi, S., Kairouz, P., Gruteser, M., Oh, S., Balle, B., & Ramage, D. (2024). Air Gap: Protecting Privacy-Conscious Conversational Agents. arXiv preprint arXiv:2405.05175.
+
+
+![image](images/AirGap.png)
