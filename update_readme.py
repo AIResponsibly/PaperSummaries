@@ -48,7 +48,7 @@ This repository provides brief summaries of AI/ML papers in the following areas:
         'Security': 'security',
         'Safety': 'safety',
         'Accountability': 'accountability',
-        'Human Control and Interaction': 'human_control_interaction',
+        'Human Control and Interaction': 'human',
         'Legal and Ethical Guidelines': 'legal_governance'
     }
 
