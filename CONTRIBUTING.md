@@ -27,6 +27,7 @@ Please use the following template for each paper summary:
 - Brief description of the problem being addressed.
 - list problems in bullet points. Use short sentences.
   - use indent if relevent e.g. defining a concept.
+  - or providing background
 
 ### Contributions
 - Key contributions made by the paper.
@@ -34,6 +35,7 @@ Please use the following template for each paper summary:
 
 ### Method
 - Overview of the method used by the paper.
+  - If they have Github implementation provide the link.
 - Dataset they used? author's approch?
 
 ### Result
