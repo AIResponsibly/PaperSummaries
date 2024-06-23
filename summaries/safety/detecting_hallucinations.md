@@ -12,7 +12,7 @@
 
 ### Contributions
 - Propose entropy-based uncertainty estimators for detecting hallucinations.
-  - They focsu on specific hallucination: **confabulation**
+  - They focus on specific hallucination: **confabulation**
     - These outputs are sensitive to irrelevant details, such as random seed variations,
     - and do not necessarily stem from the model's training data or systematic errors.
 - Introduce the concept of semantic entropy.
