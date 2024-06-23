@@ -21,7 +21,7 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 
  - **[The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md)**. This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
 
- - **[Detecting Hallucinations in Large Language Models Using Semantic Entropy - Nature, 2024](summaries/safety/detecting_hallucinations.md)**. This paper proposes a method to detect hallucinations in large language models using semantic entropy.
+ - **[A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md)**. Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
 
 ## Summaries by Topic
