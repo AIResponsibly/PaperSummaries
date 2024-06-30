@@ -1,4 +1,3 @@
-
 # Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense
 - **Published**: Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics
 - **Link**: https://aclanthology.org/2024.naacl-long.316/?s=09
