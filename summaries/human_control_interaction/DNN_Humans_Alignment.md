@@ -31,4 +31,4 @@
 ### Reference
 - Mahner, F. P., Muttenthaler, L., et al. (2024). Dimensions underlying the representational alignment of deep neural networks with humans.
 
-- ![img](DNN_Humans_Alignment.png)
+- ![img](images/DNN_Humans_Alignment.png)
