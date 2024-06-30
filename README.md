@@ -94,7 +94,7 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 
   - [Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies - FAccT '23](summaries/human_control_interaction/Survey_100Papers.md). This survey reviews over 100 empirical studies to understand and improve human-AI decision-making, emphasizing the need for unified research frameworks.
 
-  - [ - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics](summaries/human_control_interaction/llm_limitations.md). This paper examines the capabilities and limitations of large language models (LLMs) in understanding cultural commonsense.
+  - [Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics](summaries/human_control_interaction/llm_limitations.md). This paper examines the capabilities and limitations of large language models (LLMs) in understanding cultural commonsense.
 
   </p>
 </details>
