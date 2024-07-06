@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Benchmarking Cognitive Biases <br> in Large Language Models as Evaluators","children":[{"content":"Problem","children":[{"content":"LLMs are used as automatic evaluators.","children":[],"payload":{"lines":"8,9"}},{"content":"Potential biases in LLM evaluations are not well understood.","children":[{"content":"Egocentric bias: a model preference for its own responses.","children":[],"payload":{"lines":"10,11"}},{"content":"Other biases: Order, Compassion, Salience, Bandwagon, Attentional.","children":[],"payload":{"lines":"11,12"}}],"payload":{"lines":"9,12"}},{"content":"LLMs' evaluations often misalign with human preferences.","children":[],"payload":{"lines":"12,14"}}],"payload":{"lines":"6,7"}},{"content":"Contributions","children":[{"content":"Introduces COBBLER (COGNITIVE BIAS BENCHMARK FOR LLMS AS EVALUATORS) benchmark to evaluate cognitive biases in LLMs.","children":[],"payload":{"lines":"16,17"}},{"content":"Examines six cognitive biases in LLM evaluations.","children":[],"payload":{"lines":"17,18"}},{"content":"Evaluates 15 LLMs of various sizes for bias.","children":[],"payload":{"lines":"18,19"}},{"content":"Analyzes correlation between human and LLM preferences.","children":[],"payload":{"lines":"19,21"}}],"payload":{"lines":"14,15"}},{"content":"Method","children":[{"content":"15 LLMs evaluated by other LLMs using pairwise preference ranking.","children":[],"payload":{"lines":"23,24"}},{"content":"Benchmarks from BIGBENCH and ELI5 datasets.","children":[],"payload":{"lines":"24,25"}},{"content":"COBBLER benchmark assesses six biases:","children":[{"content":"Egocentric, Order, Compassion, Salience, Bandwagon, Attentional.","children":[],"payload":{"lines":"26,27"}}],"payload":{"lines":"25,27"}},{"content":"Ranks evaluated using Rank-Biased Overlap (RBO) for similarity to human preferences.","children":[],"payload":{"lines":"27,28"}},{"content":"<a href=\"https://minnesotanlp.github.io/cobbler\">GitHub Implementation</a>","children":[],"payload":{"lines":"28,30"}}],"payload":{"lines":"21,22"}},{"content":"Result","children":[{"content":"LLMs show strong biases in evaluations.","children":[],"payload":{"lines":"32,33"}},{"content":"Low alignment with human preferences (49.6% RBO).","children":[],"payload":{"lines":"33,34"}},{"content":"Larger models (100B+) less biased but still not unbiased.","children":[],"payload":{"lines":"34,36"}}],"payload":{"lines":"30,31"}},{"content":"Limitations and Assumptions","children":[{"content":"Focused on Q/A domain.","children":[],"payload":{"lines":"38,39"}},{"content":"Some models have low valid response rates.","children":[],"payload":{"lines":"39,40"}},{"content":"High computational cost.","children":[],"payload":{"lines":"40,42"}}],"payload":{"lines":"36,37"}},{"content":"Future Work","children":[{"content":"Explore de-biasing methods.","children":[],"payload":{"lines":"44,45"}},{"content":"Fine-tune models to reduce cognitive biases.","children":[],"payload":{"lines":"45,47"}}],"payload":{"lines":"42,43"}},{"content":"Conclusion","children":[{"content":"Most LLMs exhibit significant cognitive biases as evaluators.","children":[],"payload":{"lines":"49,50"}},{"content":"Current LLMs are not suitable for fair and reliable automatic evaluation.","children":[],"payload":{"lines":"50,51"}},{"content":"COBBLER provides a framework to measure and improve future LLM evaluators.","children":[],"payload":{"lines":"51,53"}}],"payload":{"lines":"47,48"}},{"content":"Reference","children":[{"content":"Koo, R., Lee, M., Raheja, V., Park, J. I., Kim, Z. M., &amp; Kang, D. (2023). Benchmarking Cognitive Biases in Large Language Models as Evaluators. arXiv. <a href=\"https://arxiv.org/abs/2309.17012\">https://arxiv.org/abs/2309.17012</a>","children":[],"payload":{"lines":"55,56"}}],"payload":{"lines":"53,54"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>
