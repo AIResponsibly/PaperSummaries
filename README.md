@@ -45,6 +45,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 
   - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/fairness_bias/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
+  - [Benchmarking Cognitive Biases in Large Language Models as Evaluators - arXiv, 2023](summaries/fairness_bias/llm_evaluators_bias.md). This paper introduces COBBLER (COGNITIVE BIAS BENCHMARK FOR LLMS AS EVALUATORS), a benchmark for evaluating cognitive biases in LLMs used as evaluators.
+
   </p>
 </details>
 
