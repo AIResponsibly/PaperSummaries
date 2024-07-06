@@ -17,11 +17,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Legal and Ethical Guidelines**
 
 ## Recent Summaries
+ - **[LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md)**. The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
+
  - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
  - **[The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md)**. This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
-
- - **[Detecting Hallucinations in Large Language Models Using Semantic Entropy - Nature, 2024](summaries/safety/detecting_hallucinations.md)**. This paper proposes a method to detect hallucinations in large language models using semantic entropy.
 
 
 ## Summaries by Topic
@@ -65,6 +65,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 <details open>
   <summary>Safety</summary>
   <p>
+
+  - [LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md). The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
 
   - [Detecting Hallucinations in Large Language Models Using Semantic Entropy - Nature, 2024](summaries/safety/detecting_hallucinations.md). This paper proposes a method to detect hallucinations in large language models using semantic entropy.
 
