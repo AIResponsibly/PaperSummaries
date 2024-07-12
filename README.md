@@ -30,6 +30,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Explainability and Interpretability</summary>
   <p>
 
+  - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models - NeurIPS 2023](summaries/explainability/ToT.md). The paper introduces the Tree of Thoughts (ToT) framework, enhancing the problem-solving abilities of large language models by enabling exploration and evaluation of multiple reasoning paths.
+
   - [Graph of Thoughts: Solving Elaborate Problems with Large Language Models - arXiv, 2024](summaries/explainability/GoT.md). This paper introduces the Graph of Thoughts (GoT) framework, enhancing the reasoning capabilities of large language models by structuring their thought processes as directed graphs.
 
   - [A Unified Approach to Interpreting Model Predictions - NIPS 2017](summaries/explainability/SHAP.md). Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions by assigning each feature an importance value for a particular prediction, integrating six existing methods into a single, cohesive approach.
