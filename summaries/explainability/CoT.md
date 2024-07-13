@@ -1,7 +1,7 @@
 # Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
 
 - **Published**: NeurIPS 2022
-- **Link**: [URL to the paper](https://arxiv.org/abs/2201.11903)
+- **Link**: https://arxiv.org/abs/2201.11903
 - **Summary**: This paper demonstrates how chain-of-thought (CoT) prompting significantly enhances the reasoning abilities of large language models (LLMs).
 
 ### Problem
