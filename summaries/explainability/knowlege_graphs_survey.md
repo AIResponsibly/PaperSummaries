@@ -434,7 +434,7 @@ Final Embedding for relation 0: tensor([ 0.3823,  0.7712, -0.7981, -0.7209, -0.3
 
 - Edge prediction using Ampligraph:  <https://docs.ampligraph.org/en/latest/index.html>
 
-   ![img](../img/AmpliGraph.png)
+   ![img](../images/AmpliGraph.png)
 
 - paper review: <https://www.youtube.com/watch?v=kfDufTaMsZ4>
 
@@ -443,6 +443,6 @@ Final Embedding for relation 0: tensor([ 0.3823,  0.7712, -0.7981, -0.7209, -0.3
 - TransE: <https://medium.com/stanford-cs224w/knowledge-graph-embeddings-simplistic-and-powerful-representations-ed43a1a73c7c>
 
 - DFS/BFS for context of the node. Used in Random Walk approach.
-- ![dfs-bfs](../img/bfs-dfs.jpeg)
+- ![dfs-bfs](../images/bfs-dfs.jpeg)
 
 - recent work: Graph RAG using LLMs
