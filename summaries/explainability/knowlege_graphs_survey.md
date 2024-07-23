@@ -137,7 +137,7 @@
   - Entity Alignment
     - Task: Fuse knowledge among various knowledge graphs.
     - Goal: Find an alignment set
-       $$ A = \{(e1, e2) \in E1 \times E2 | e1 \equiv e2 \} $$
+       $A = \{(e1, e2) \in E1 \times E2 | e1 \equiv e2 \}$
     - Methods: Embedding-based alignment, iterative alignment.
     - Example: MTransE for multilingual scenarios, IPTransE for joint embedding, BootEA for bootstrapping approach.
     - Additional Techniques: JAPE for cross-lingual attributes, KDCoE for multi-lingual entity descriptions, MultiKE for multiple views of entity name, relation, and attributes.
@@ -262,7 +262,7 @@
 ## TransE paper
 
 - Overview
-  - The TransE model represents entities and relationships in a continuous vector space. The core idea is that if a triple $ (h, r, t) $ holds true, then the embedding of the head entity $ \mathbf{h} $ plus the embedding of the relation $ \mathbf{r} $ should be close to the embedding of the tail entity $ \mathbf{t} $. The TransE loss function is designed to enforce this principle by minimizing the distance between $ \mathbf{h} + \mathbf{r} $ and $ \mathbf{t} $ for valid triples, while ensuring that invalid triples have a larger distance.
+  - The TransE model represents entities and relationships in a continuous vector space. The core idea is that if a triple $(h, r, t)$ holds true, then the embedding of the head entity $\mathbf{h}$ plus the embedding of the relation $\mathbf{r}$ should be close to the embedding of the tail entity $\mathbf{t}$. The TransE loss function is designed to enforce this principle by minimizing the distance between $\mathbf{h} + \mathbf{r}$ and $\mathbf{t}$ for valid triples, while ensuring that invalid triples have a larger distance.
 
 - Loss Function
   - The loss function in TransE uses a margin-based ranking criterion. This function includes both positive and negative examples to ensure the model distinguishes between correct and incorrect triples.
