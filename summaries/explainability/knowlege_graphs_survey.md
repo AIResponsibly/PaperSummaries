@@ -228,36 +228,6 @@
 
 - Shaoxiong Ji, Pekka Marttinen, Shirui Pan, Erik Cambria, Philip S. Yu, "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications", IEEE Transactions on Neural Networks and Learning Systems, 2021.
 
-## Notes
-
-- Key Concepts
-  - Quick recap of entities, relationships, and triples
-  - Ontologies and schemas
-
-- Construction of Knowledge Graphs
-  - Data Collection and Preprocessing
-  - Entity Recognition and Linking
-  - Triples Extraction
-  - Integration and Fusion
-  - Storage Solutions (Graph databases, RDF stores)
-
-- Advanced Techniques
-  - Using Machine Learning for Entity Recognition and Relationship Extraction
-  - Probabilistic Knowledge Graphs
-  - Incorporating NLP for enhanced extraction and linking
-
-- Tools and Technologies
-  - popular tools: Neo4j
-  - Brief demos or screenshots
-
-- Use Cases and Applications
-  - Real-world examples in various domains (healthcare, finance, e-commerce)
-  - Enhancing recommendation systems, semantic search, and data integration
-
-- Challenges and Solutions
-  - Scalability
-  - Data Quality and Integration
-  - Maintaining and Updating Graphs
 
 ## TransE paper
 
