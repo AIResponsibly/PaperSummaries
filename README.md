@@ -17,9 +17,9 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Legal and Ethical Guidelines**
 
 ## Recent Summaries
- - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
-
  - **[LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md)**. The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
+
+ - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
  - **[The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md)**. This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
 
@@ -30,19 +30,21 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Explainability and Interpretability</summary>
   <p>
 
-  - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models - NeurIPS 2023](summaries/explainability/ToT.md). The paper introduces the Tree of Thoughts (ToT) framework, enhancing the problem-solving abilities of large language models by enabling exploration and evaluation of multiple reasoning paths.
+  - [A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
 
-  - [Graph of Thoughts: Solving Elaborate Problems with Large Language Models - arXiv, 2024](summaries/explainability/GoT.md). This paper introduces the Graph of Thoughts (GoT) framework, enhancing the reasoning capabilities of large language models by structuring their thought processes as directed graphs.
+  - [Understanding the Reasoning Ability of Language Models From the Perspective of Reasoning Paths Aggregation - 41st International Conference on Machine Learning (ICML) 2024](summaries/explainability/LLM_random_walk.md). The paper investigates how pre-trained language models (LMs) perform reasoning tasks by aggregating indirect reasoning paths seen during pre-training.
 
   - [A Unified Approach to Interpreting Model Predictions - NIPS 2017](summaries/explainability/SHAP.md). Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions by assigning each feature an importance value for a particular prediction, integrating six existing methods into a single, cohesive approach.
+
+  - [Why Should I Trust You? Explaining the Predictions of Any Classifier - KDD 2016](summaries/explainability/LIME.md). This paper introduces LIME (Local Interpretable Model-agnostic Explanations), a technique to explain the predictions of any classifier in a faithful and interpretable manner by learning an interpretable model locally around the prediction.
 
   - [#A Survey on Knowledge Graphs: Representation, Acquisition, and Applications - IEEE Transactions on Neural Networks and Learning Systems, 2021](summaries/explainability/knowlege_graphs_survey.md). A comprehensive review of knowledge graph representation learning, acquisition methods, and applications.
 
   - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models - NeurIPS 2022](summaries/explainability/CoT.md). This paper demonstrates how chain-of-thought (CoT) prompting significantly enhances the reasoning abilities of large language models (LLMs).
 
-  - [A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
+  - [Graph of Thoughts: Solving Elaborate Problems with Large Language Models - arXiv, 2024](summaries/explainability/GoT.md). This paper introduces the Graph of Thoughts (GoT) framework, enhancing the reasoning capabilities of large language models by structuring their thought processes as directed graphs.
 
-  - [Why Should I Trust You? Explaining the Predictions of Any Classifier - KDD 2016](summaries/explainability/LIME.md). This paper introduces LIME (Local Interpretable Model-agnostic Explanations), a technique to explain the predictions of any classifier in a faithful and interpretable manner by learning an interpretable model locally around the prediction.
+  - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models - NeurIPS 2023](summaries/explainability/ToT.md). The paper introduces the Tree of Thoughts (ToT) framework, enhancing the problem-solving abilities of large language models by enabling exploration and evaluation of multiple reasoning paths.
 
   </p>
 </details>
@@ -76,21 +78,21 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Safety</summary>
   <p>
 
-  - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
-
-  - [SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors - 2024 Arxiv](summaries/safety/SORRY_Bench.md). This paper introduces SORRY-Bench, a benchmark for evaluating LLM safety refusal behaviors.
-
-  - [Detecting Hallucinations in Large Language Models Using Semantic Entropy - Nature, 2024](summaries/safety/detecting_hallucinations.md). This paper proposes a method to detect hallucinations in large language models using semantic entropy.
-
-  - [To Believe or Not to Believe Your LLM - arXiv, 2024](summaries/safety/believe_or_not.md). This paper explores uncertainty quantification in LLMs to detect hallucinations by distinguishing epistemic from aleatoric uncertainties using an information-theoretic metric.
-
-  - [CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models - arXiv, 2024](summaries/safety/CARES.md). CARES evaluates the trustworthiness of medical vision language models (Med-LVLMs) across five dimensions: trustfulness, fairness, safety, privacy, and robustness.
+  - [LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md). The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
 
   - [Air Gap: Protecting Privacy-Conscious Conversational Agents - arXiv 2024](summaries/safety/AirGap.md). A paper from Google proposes AirGapAgent to prevent data leakage from LLMs, ensuring privacy in adversarial contexts.
 
-  - [LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md). The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
+  - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
+
+  - [CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models - arXiv, 2024](summaries/safety/CARES.md). CARES evaluates the trustworthiness of medical vision language models (Med-LVLMs) across five dimensions: trustfulness, fairness, safety, privacy, and robustness.
+
+  - [Detecting Hallucinations in Large Language Models Using Semantic Entropy - Nature, 2024](summaries/safety/detecting_hallucinations.md). This paper proposes a method to detect hallucinations in large language models using semantic entropy.
 
   - [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md). This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
+
+  - [To Believe or Not to Believe Your LLM - arXiv, 2024](summaries/safety/believe_or_not.md). This paper explores uncertainty quantification in LLMs to detect hallucinations by distinguishing epistemic from aleatoric uncertainties using an information-theoretic metric.
+
+  - [SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors - 2024 Arxiv](summaries/safety/SORRY_Bench.md). This paper introduces SORRY-Bench, a benchmark for evaluating LLM safety refusal behaviors.
 
   </p>
 </details>
@@ -106,9 +108,9 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Human Control and Interaction</summary>
   <p>
 
-  - [Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies - FAccT '23](summaries/human_control_interaction/Survey_100Papers.md). This survey reviews over 100 empirical studies to understand and improve human-AI decision-making, emphasizing the need for unified research frameworks.
-
   - [Dimensions underlying the representational alignment of deep neural networks with humans - 2024 Conference on Computer Vision](summaries/human_control_interaction/DNN_Humans_Alignment.md). The paper analyzes representational alignment between humans and DNNs, highlighting divergent strategies.
+
+  - [Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies - FAccT '23](summaries/human_control_interaction/Survey_100Papers.md). This survey reviews over 100 empirical studies to understand and improve human-AI decision-making, emphasizing the need for unified research frameworks.
 
   - [Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics](summaries/human_control_interaction/llm_limitations.md). This paper examines the capabilities and limitations of large language models (LLMs) in understanding cultural commonsense.
 
