@@ -82,6 +82,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Safety</summary>
   <p>
 
+  - [REFCHECKER: Reference-based Fine-grained Hallucination Checker and Benchmark for Large Language Models - arXiv 2024](summaries/safety/RefChecker.md). REFCHECKER is a framework designed to detect fine-grained hallucinations in large language model responses using a novel claim-triplet analysis.
+
   - [To Believe or Not to Believe Your LLM - arXiv, 2024](summaries/safety/believe_or_not.md). This paper explores uncertainty quantification in LLMs to detect hallucinations by distinguishing epistemic from aleatoric uncertainties using an information-theoretic metric.
 
   - [LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md). The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
