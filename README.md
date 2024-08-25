@@ -100,6 +100,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 
   - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
+  - [Graph Retrieval-Augmented Generation: A Survey - [arXiv 2024]](summaries/safety/GraphRAG_survey.md). The paper surveys GraphRAG, a framework that enhances traditional RAG by incorporating graph-based retrieval for improved knowledge representation and generation.
+
   </p>
 </details>
 
