@@ -1,4 +1,4 @@
-## Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
+# Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
 
 - **Published**: ArXiv, August 2024
 - **Link**: [ArXiv](https://arxiv.org/abs/2408.16737)
