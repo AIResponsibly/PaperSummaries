@@ -1,4 +1,4 @@
-## Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
+# Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
 
 - **Published**: ArXiv, July 2024
 - **Link**: [ArXiv](https://arxiv.org/abs/2407.21787)
