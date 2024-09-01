@@ -34,6 +34,7 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Security**
 - **Safety**
 - **Accountability**
+- **Sustainability**
 - **Human Control and Interaction**
 - **Legal and Ethical Guidelines**
 
@@ -48,6 +49,7 @@ This repository provides brief summaries of AI/ML papers in the following areas:
         'Security': 'security',
         'Safety': 'safety',
         'Accountability': 'accountability',
+        'Sustainability': 'sustainability'
         'Human Control and Interaction': 'human_control_interaction',
         'Legal and Ethical Guidelines': 'legal_governance'
     }
