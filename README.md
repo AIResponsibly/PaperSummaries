@@ -13,6 +13,7 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Security**
 - **Safety**
 - **Accountability**
+- **Sustainability**
 - **Human Control and Interaction**
 - **Legal and Ethical Guidelines**
 
@@ -108,6 +109,17 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 <details open>
   <summary>Accountability</summary>
   <p>
+
+  </p>
+</details>
+
+<details open>
+  <summary>Sustainability</summary>
+  <p>
+
+  - [#Large Language Monkeys: Scaling Inference Compute with Repeated Sampling - ArXiv, July 2024](summaries/sustainability/large_lang_monkeys.md). Repeated sampling is an effective and cost-efficient method for scaling inference compute in LLMs, significantly improving task performance across a range of models and tasks.
+
+  - [#Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling - ArXiv, August 2024](summaries/sustainability/smaller_better.md). 
 
   </p>
 </details>
