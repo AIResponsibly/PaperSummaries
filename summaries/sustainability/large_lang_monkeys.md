@@ -2,7 +2,7 @@
 
 - **Published**: ArXiv, July 2024
 - **Link**: [ArXiv](https://arxiv.org/abs/2407.21787)
-- **Summary**: This paper explores the concept of scaling inference compute by using repeated sampling from large language models (LLMs). It demonstrates that increasing the number of samples can significantly improve the model's ability to solve problems, particularly in coding and formal proof domains where solutions can be automatically verified.
+- **Summary**: This paper explores the concept of scaling inference compute by using repeated sampling from LLMs. It demonstrates that increasing the number of samples can significantly improve the model's ability to solve problems, particularly in coding and formal proof domains where solutions can be automatically verified.
 
 ## I. INTRODUCTION
 
@@ -27,7 +27,8 @@
   - Precision (ability to identify the correct solution from multiple samples).
 
 ## III. EXPERIMENTAL RESULTS
-
+- GitHub repo for the paper: https://github.com/ScalingIntelligence/large_language_monkeys
+  
 ### 3.1 Repeated Sampling Across Tasks
 
 - **Findings**:
@@ -69,8 +70,7 @@
 
 ## VI. RELATED WORK
 
-- **Topics Covered**:
-  - Scaling inference compute, repeated sampling, scaling laws, and the impact of compute on LLM performance.
+- Scaling inference compute, repeated sampling, scaling laws, and the impact of compute on LLM performance.
 
 ## VII. CONCLUSION
 
