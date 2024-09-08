@@ -95,6 +95,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 
   - [Air Gap: Protecting Privacy-Conscious Conversational Agents - arXiv 2024](summaries/safety/AirGap.md). A paper from Google proposes AirGapAgent to prevent data leakage from LLMs, ensuring privacy in adversarial contexts.
 
+  - [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection - ](summaries/safety/LLM4Vulnerabilities.md). This paper investigates the effectiveness of Large Language Models (LLMs) in detecting software vulnerabilities. It evaluates 11 state-of-the-art LLMs using a variety of prompt designs and presents insights into the models' limitations in understanding code structures and reasoning about vulnerabilities.
+
   - [Graph Retrieval-Augmented Generation: A Survey - [arXiv 2024]](summaries/safety/GraphRAG_survey.md). The paper surveys GraphRAG, a framework that enhances traditional RAG by incorporating graph-based retrieval for improved knowledge representation and generation.
 
   - [SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors - 2024 Arxiv](summaries/safety/SORRY_Bench.md). This paper introduces SORRY-Bench, a benchmark for evaluating LLM safety refusal behaviors.
