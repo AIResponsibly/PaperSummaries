@@ -18,11 +18,11 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 - **Legal and Ethical Guidelines**
 
 ## Recent Summaries
- - **[The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md)**. This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
+ - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
  - **[LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md)**. The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
 
- - **[Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md)**. This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
+ - **[The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md)**. This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
 
 
 ## Summaries by Topic
@@ -31,25 +31,25 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Explainability and Interpretability</summary>
   <p>
 
-  - [A Unified Approach to Interpreting Model Predictions - NIPS 2017](summaries/explainability/SHAP.md). Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions by assigning each feature an importance value for a particular prediction, integrating six existing methods into a single, cohesive approach.
-
   - [Understanding the Reasoning Ability of Language Models From the Perspective of Reasoning Paths Aggregation - 41st International Conference on Machine Learning (ICML) 2024](summaries/explainability/LLM_random_walk.md). The paper investigates how pre-trained language models (LMs) perform reasoning tasks by aggregating indirect reasoning paths seen during pre-training.
-
-  - [#A Survey on Knowledge Graphs: Representation, Acquisition, and Applications - IEEE Transactions on Neural Networks and Learning Systems, 2021](summaries/explainability/knowlege_graphs_survey.md). A comprehensive review of knowledge graph representation learning, acquisition methods, and applications.
-
-  - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models - NeurIPS 2022](summaries/explainability/CoT.md). This paper demonstrates how chain-of-thought (CoT) prompting significantly enhances the reasoning abilities of large language models (LLMs).
-
-  - [Why Should I Trust You? Explaining the Predictions of Any Classifier - KDD 2016](summaries/explainability/LIME.md). This paper introduces LIME (Local Interpretable Model-agnostic Explanations), a technique to explain the predictions of any classifier in a faithful and interpretable manner by learning an interpretable model locally around the prediction.
-
-  - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models - NeurIPS 2023](summaries/explainability/ToT.md). The paper introduces the Tree of Thoughts (ToT) framework, enhancing the problem-solving abilities of large language models by enabling exploration and evaluation of multiple reasoning paths.
 
   - [Patchscopes: A Unifying Framework for Inspecting Hidden Representations of Language Models - International Conference on Machine Learning (ICML) 2024](summaries/explainability/Patchscopes.md). 
 
   - [Graph of Thoughts: Solving Elaborate Problems with Large Language Models - arXiv, 2024](summaries/explainability/GoT.md). This paper introduces the Graph of Thoughts (GoT) framework, enhancing the reasoning capabilities of large language models by structuring their thought processes as directed graphs.
 
-  - [A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
+  - [Why Should I Trust You? Explaining the Predictions of Any Classifier - KDD 2016](summaries/explainability/LIME.md). This paper introduces LIME (Local Interpretable Model-agnostic Explanations), a technique to explain the predictions of any classifier in a faithful and interpretable manner by learning an interpretable model locally around the prediction.
 
   - [Sparse Autoencoders Find Highly Interpretable Features in Language Models - arXiv, 2023](summaries/explainability/SAE-interpret.md). This paper uses sparse autoencoders to extract interpretable features from language models, addressing polysemanticity in neural networks.
+
+  - [A Unified Approach to Interpreting Model Predictions - NIPS 2017](summaries/explainability/SHAP.md). Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions by assigning each feature an importance value for a particular prediction, integrating six existing methods into a single, cohesive approach.
+
+  - [#A Survey on Knowledge Graphs: Representation, Acquisition, and Applications - IEEE Transactions on Neural Networks and Learning Systems, 2021](summaries/explainability/knowlege_graphs_survey.md). A comprehensive review of knowledge graph representation learning, acquisition methods, and applications.
+
+  - [A Nutritional Label for Rankings - SIGMOD’18](summaries/explainability/Nutritional_Label.md). Provides a web-based application called Ranking Facts that generates a "nutritional label" for rankings to enhance transparency, fairness, and stability.
+
+  - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models - NeurIPS 2023](summaries/explainability/ToT.md). The paper introduces the Tree of Thoughts (ToT) framework, enhancing the problem-solving abilities of large language models by enabling exploration and evaluation of multiple reasoning paths.
+
+  - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models - NeurIPS 2022](summaries/explainability/CoT.md). This paper demonstrates how chain-of-thought (CoT) prompting significantly enhances the reasoning abilities of large language models (LLMs).
 
   </p>
 </details>
@@ -58,9 +58,9 @@ This repository provides brief summaries of AI/ML papers in the following areas:
   <summary>Fairness and Biases</summary>
   <p>
 
-  - [Benchmarking Cognitive Biases in Large Language Models as Evaluators - arXiv, 2023](summaries/fairness_bias/llm_evaluators_bias.md). This paper introduces COBBLER (COGNITIVE BIAS BENCHMARK FOR LLMS AS EVALUATORS), a benchmark for evaluating cognitive biases in LLMs used as evaluators.
-
   - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/fairness_bias/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
+
+  - [Benchmarking Cognitive Biases in Large Language Models as Evaluators - arXiv, 2023](summaries/fairness_bias/llm_evaluators_bias.md). This paper introduces COBBLER (COGNITIVE BIAS BENCHMARK FOR LLMS AS EVALUATORS), a benchmark for evaluating cognitive biases in LLMs used as evaluators.
 
   </p>
 </details>
@@ -85,27 +85,29 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 
   - [To Believe or Not to Believe Your LLM - arXiv, 2024](summaries/safety/believe_or_not.md). This paper explores uncertainty quantification in LLMs to detect hallucinations by distinguishing epistemic from aleatoric uncertainties using an information-theoretic metric.
 
-  - [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md). This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
-
-  - [Detecting Hallucinations in Large Language Models Using Semantic Entropy - Nature, 2024](summaries/safety/detecting_hallucinations.md). This paper proposes a method to detect hallucinations in large language models using semantic entropy.
-
-  - [Characterizing Bugs in Python and R Data Analytics Programs - ](summaries/safety/R_vs_Paython_bugs.md). This paper provides a comprehensive study of bugs in Python and R data analytics programs. It uses data from Stack Overflow posts, GitHub bug fix commits, and issues in popular libraries to explore common bug types, root causes, and effects. The study also provides a dataset of manually verified bugs.
-
-  - [LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md). The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
-
-  - [Air Gap: Protecting Privacy-Conscious Conversational Agents - arXiv 2024](summaries/safety/AirGap.md). A paper from Google proposes AirGapAgent to prevent data leakage from LLMs, ensuring privacy in adversarial contexts.
-
-  - [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection - ](summaries/safety/LLM4Vulnerabilities.md). This paper investigates the effectiveness of Large Language Models (LLMs) in detecting software vulnerabilities. It evaluates 11 state-of-the-art LLMs using a variety of prompt designs and presents insights into the models' limitations in understanding code structures and reasoning about vulnerabilities.
-
-  - [Graph Retrieval-Augmented Generation: A Survey - [arXiv 2024]](summaries/safety/GraphRAG_survey.md). The paper surveys GraphRAG, a framework that enhances traditional RAG by incorporating graph-based retrieval for improved knowledge representation and generation.
-
-  - [SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors - 2024 Arxiv](summaries/safety/SORRY_Bench.md). This paper introduces SORRY-Bench, a benchmark for evaluating LLM safety refusal behaviors.
+  - [CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models - arXiv, 2024](summaries/safety/CARES.md). CARES evaluates the trustworthiness of medical vision language models (Med-LVLMs) across five dimensions: trustfulness, fairness, safety, privacy, and robustness.
 
   - [Taxonomy of Risks Posed by Language Models - FAccT ’22](summaries/safety/risk_taxonomy_llms.md). This paper develops a comprehensive taxonomy of ethical and social risks associated with large-scale language models (LMs). It identifies twenty-one risks and categorizes them into six risk areas to guide responsible innovation and mitigation strategies.
 
   - [REFCHECKER: Reference-based Fine-grained Hallucination Checker and Benchmark for Large Language Models - arXiv 2024](summaries/safety/RefChecker.md). REFCHECKER is a framework designed to detect fine-grained hallucinations in large language model responses using a novel claim-triplet analysis.
 
-  - [CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models - arXiv, 2024](summaries/safety/CARES.md). CARES evaluates the trustworthiness of medical vision language models (Med-LVLMs) across five dimensions: trustfulness, fairness, safety, privacy, and robustness.
+  - [LLMs’ Classification Performance is Overclaimed - arXiv, 2024](summaries/safety/llm_classification_performance.md). The paper reveals the limitations of LLMs in classification tasks without gold labels. This work provides a new testbed to evaluate LLMs' human-level discrimination intelligence, proposing a framework for future research to enhance LLMs' robustness and reliability.
+
+  - [Air Gap: Protecting Privacy-Conscious Conversational Agents - arXiv 2024](summaries/safety/AirGap.md). A paper from Google proposes AirGapAgent to prevent data leakage from LLMs, ensuring privacy in adversarial contexts.
+
+  - [Detecting Hallucinations in Large Language Models Using Semantic Entropy - Nature, 2024](summaries/safety/detecting_hallucinations.md). This paper proposes a method to detect hallucinations in large language models using semantic entropy.
+
+  - [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions - arXiv, 2024](summaries/safety/instruction_hierarchy_llm.md). This paper from OpenAI introduces an instruction hierarchy to train LLMs to prioritize privileged instructions(system messages) over lower-level ones (user messages and third-party inputs), enhancing their robustness against adversaries.
+
+  - [A Grading Rubric for AI Safety Frameworks - ArXiv, September 2024](summaries/safety/Grading_Rubric_Frameworks.md). This paper proposes a comprehensive grading rubric for evaluating AI safety frameworks. It introduces seven evaluation criteria with 21 indicators, a six-tier grading system, and three methods for applying the rubric. The goal is to enable nuanced comparisons between frameworks, identify areas for improvement, and promote responsible AI development.
+
+  - [SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors - 2024 Arxiv](summaries/safety/SORRY_Bench.md). This paper introduces SORRY-Bench, a benchmark for evaluating LLM safety refusal behaviors.
+
+  - [Characterizing Bugs in Python and R Data Analytics Programs - ](summaries/safety/R_vs_Paython_bugs.md). This paper provides a comprehensive study of bugs in Python and R data analytics programs. It uses data from Stack Overflow posts, GitHub bug fix commits, and issues in popular libraries to explore common bug types, root causes, and effects. The study also provides a dataset of manually verified bugs.
+
+  - [Graph Retrieval-Augmented Generation: A Survey - [arXiv 2024]](summaries/safety/GraphRAG_survey.md). The paper surveys GraphRAG, a framework that enhances traditional RAG by incorporating graph-based retrieval for improved knowledge representation and generation.
+
+  - [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection - ](summaries/safety/LLM4Vulnerabilities.md). This paper investigates the effectiveness of Large Language Models (LLMs) in detecting software vulnerabilities. It evaluates 11 state-of-the-art LLMs using a variety of prompt designs and presents insights into the models' limitations in understanding code structures and reasoning about vulnerabilities.
 
   </p>
 </details>
