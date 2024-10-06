@@ -101,6 +101,8 @@ This repository provides brief summaries of AI/ML papers in the following areas:
 
   - [A Grading Rubric for AI Safety Frameworks - ArXiv, September 2024](summaries/safety/Grading_Rubric_Frameworks.md). This paper proposes a comprehensive grading rubric for evaluating AI safety frameworks. It introduces seven evaluation criteria with 21 indicators, a six-tier grading system, and three methods for applying the rubric. The goal is to enable nuanced comparisons between frameworks, identify areas for improvement, and promote responsible AI development.
 
+  - [An Adversarial Perspective on Machine Unlearning for AI Safety - ArXiv, September 2024](summaries/safety/machine_unlearning.md). This paper explores the robustness of machine unlearning methods designed to remove hazardous knowledge (machine unlearning) from large language models, arguing that these methods may be ineffective under adversarial scrutiny.
+
   - [SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors - 2024 Arxiv](summaries/safety/SORRY_Bench.md). This paper introduces SORRY-Bench, a benchmark for evaluating LLM safety refusal behaviors.
 
   - [Characterizing Bugs in Python and R Data Analytics Programs - ](summaries/safety/R_vs_Paython_bugs.md). This paper provides a comprehensive study of bugs in Python and R data analytics programs. It uses data from Stack Overflow posts, GitHub bug fix commits, and issues in popular libraries to explore common bug types, root causes, and effects. The study also provides a dataset of manually verified bugs.
