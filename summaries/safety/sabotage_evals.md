@@ -1,6 +1,6 @@
 # Sabotage Evaluations of Frontier Models
 - **Published**: Anthropic Research Report, 2024
-- **Link**: [https://www.anthropic.com](https://www.anthropic.com)
+- **Link**: [[https://www.anthropic.com]([https://www.anthropic.com](https://www.anthropic.com/research/sabotage-evaluations))](https://www.anthropic.com/research/sabotage-evaluations)
 - **Summary**: This paper presents risk evaluations focused on sabotage capabilities in advanced AI models, assessing whether they can manipulate human decisions without detection.
 
 ## Introduction
